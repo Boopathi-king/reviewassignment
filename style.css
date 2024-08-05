@@ -1,0 +1,253 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.header-stars-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header {
+  width: 50%;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #4c045e;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.stars {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.stars div {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #472b75;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #e3c3e300;
+  border-radius: 15px;
+  background-color: #d9c4d999;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stars .star  {
+  font-size: 24px;
+  color: #f7b500;
+  margin-right: 10px;
+}
+.stars .startwo {
+  font-size: 24px;
+  color: #f7b500;
+  margin-right: 10px;
+}
+.stars .star3 {
+  font-size: 24px;
+  color: #f7b500;
+  margin-right: 10px;
+}
+
+.stars p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.stars .two {
+ margin-left: 30px;
+}
+
+.stars .three {
+  margin-left: 70px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #752b71;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: left;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0px;
+}
+
+.review-card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.review-card span {
+  font-size: 14px;
+  color: #c0a8e0;
+}
+
+.review-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.review-card p::before {
+  content: "“";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-right: 5px;
+}
+
+.review-card p::after {
+  content: "”";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-left: 5px;
+}
+
+/* class reviewcard two */
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.review-cardtwo {
+  background-color: #752b71;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: left;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.review-cardtwo h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.review-cardtwo span {
+  font-size: 14px;
+  color: #c0a8e0;
+}
+
+.review-cardtwo p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.review-cardtwo p::before {
+  content: "“";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-right: 5px;
+}
+
+.review-cardtwo p::after {
+  content: "”";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-left: 5px;
+}
+
+/* Review card three css */
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.review-cardthree {
+  background-color: #752b71;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: left;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.review-cardthree h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.review-cardthree span {
+  font-size: 14px;
+  color: #c0a8e0;
+}
+
+.review-cardthree p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.review-cardthree p::before {
+  content: "“";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-right: 5px;
+}
+
+.review-cardthree p::after {
+  content: "”";
+  font-size: 36px;
+  vertical-align: middle;
+  line-height: 0;
+  color: #ffffff99;
+  margin-left: 5px;
+}
